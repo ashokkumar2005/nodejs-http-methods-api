@@ -1,10 +1,14 @@
-# nodejs-http-methods-api
-Beginner Node.js REST API demonstrating GET, POST, PUT, PATCH and DELETE methods.
 # Node.js HTTP Methods API
 
-This project is a beginner-friendly Node.js application that demonstrates how REST API HTTP methods work using Express.js.
+This is a beginner Node.js REST API project that demonstrates how HTTP methods work using Express.js.
 
-The project includes examples of the following HTTP methods:
+This project is created to understand how backend APIs handle different types of requests.
+
+---
+
+## Project Description
+
+In this project, different files are used to demonstrate how the following HTTP methods work:
 
 - GET
 - POST
@@ -12,7 +16,19 @@ The project includes examples of the following HTTP methods:
 - PATCH
 - DELETE
 
-These methods are commonly used to perform CRUD operations in backend development.
+These methods are mainly used to perform CRUD operations in backend development.
+
+---
+
+## Features
+
+- Example of GET request
+- Example of POST request
+- Example of PUT request
+- Example of PATCH request
+- Example of DELETE request
+- Beginner-friendly backend project
+- Simple and easy-to-understand code
 
 ---
 
@@ -27,19 +43,80 @@ These methods are commonly used to perform CRUD operations in backend developmen
 
 ## Project Structure
 
-api req/
+
+api-req
 │
-├── get.js        # Example of GET request
-├── post.js       # Example of POST request
-├── put.js        # Example of PUT request
-├── patch.js      # Example of PATCH request
-├── delete.js     # Example of DELETE request
+├── get.js
+├── post.js
+├── put.js
+├── patch.js
+├── delete.js
 ├── package.json
 └── package-lock.json
 
 
 ---
 
-## Installation
+## How It Works
 
-1. Clone the repository
+Each file demonstrates one HTTP method:
+
+- `get.js` → used to fetch data
+- `post.js` → used to create new data
+- `put.js` → used to update full data
+- `patch.js` → used to update partial data
+- `delete.js` → used to delete data
+
+---
+
+## Installation and Setup
+
+### 1. Clone the repository
+
+
+git clone https://github.com/your-username/nodejs-http-methods-api.git
+
+
+### 2. Open the project folder
+
+
+cd nodejs-http-methods-api
+
+
+### 3. Install dependencies
+
+
+npm install
+
+
+### 4. Run the project
+
+
+node get.js
+
+
+You can also run the other files:
+
+
+node post.js
+node put.js
+node patch.js
+node delete.js
+
+
+---
+
+## Why This Project is Useful
+
+This project is perfect for:
+
+- Beginners learning Node.js
+- Students learning REST API
+- Understanding HTTP methods
+- Preparing for backend interviews
+
+---
+
+## Author
+
+This project is created while learning Node.js and backend development.
